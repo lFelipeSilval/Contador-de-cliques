@@ -16,5 +16,9 @@ function calc() {
         numero = numero + 1;
     }
 
+    if (operador.value === "nada"){
+        alert("Selecione um operador válido")
+    }
+
     contador.innerHTML = numero;
 }

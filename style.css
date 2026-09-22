@@ -20,6 +20,11 @@ select{
     box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2);
 }
 
+select option{
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, 0);
+}
+
 h1 {
     display: block;
     color: white;
